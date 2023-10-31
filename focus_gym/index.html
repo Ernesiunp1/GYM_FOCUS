@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kolker+Brush&family=Montserrat:wght@100;400&family=Roboto+Mono&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+   
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+
+    
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="container">
+
+     
+      <!-- COMIENZO DEL BANNER -->
+      <div class="banner">        
+
+            <div class="navbar">
+
+              <div class="logo"> <img src="./public/logogym-removebg-preview.png" alt="" width="150px" height="60px"> </div>
+      
+              <button class="abrirMenu" id="abrir" ><i class="bi bi-list"> MENU</i></button>
+
+              <nav class="nav2 " id="nav2" >
+                <button class="cerrar" id="cerrar" ><i class="bi bi-x-square"> Cerrar</i></button>
+                <ul class="nav-list" >
+                  <li> <a href="">Home</a> </li>
+                  <li> <a href="#clases">Actividades </a> </li>
+                  <li> <a href="#precios">Precios</a> </li>
+                  <li> <a href="#equipo">Equipo </a> </li>
+                  <li> <a href="#contacto">Contacto</a> </li>
+                </ul>
+              </nav>
+            
+
+
+              
+            </div>
+
+            <div class="espaciador">
+             <!-- <h1>Stay Focus</h1> -->
+            </div>
+            
+       
+            <div class="pasos">
+
+            
+
+                <div class="cajas">
+                  <h1><span class="Numero">1. </span><span class="textocinto">Mantente positivo</span>    </h1>
+                  <h4 class="textoCaja" >Manten tu mente libre de negatividad.</h4>
+                </div>
+
+                <div class="cajas">
+                  <h1><span class="Numero">2. </span><span class="textocinto">Trabaja duro </span> </h1>
+                  <h4 class="textoCaja" >Entrena bien, trabaja duro hasta que pase.</h4>
+                </div>
+
+                <div class="cajas">
+                  <h1><span class="Numero">3. </span><span class="textocinto">Haz que pase </span></h1>
+                  <h4 class="textoCaja">Logra tus metas y obtén los resultados.</h4>
+                </div>
+              
+            </div> 
+
+      </div>
+
+
+
+
+
+      <!-- <div class="pasos">
+
+        <div class="cajas">
+          <h1><span class="Numero">1. </span><span class="textocinto">Mantente positivo</span>    </h1>
+          <h4 class="textoCaja" >Manten tu mente libre de negatividad.</h4>
+        </div>
+
+        <div class="cajas">
+          <h1><span class="Numero">2. </span><span class="textocinto">Trabaja duro </span> </h1>
+          <h4 class="textoCaja" >Entrena bien, trabaja duro hasta que pase.</h4>
+        </div>
+
+        <div class="cajas">
+          <h1><span class="Numero">3. </span><span class="textocinto">Haz que pase </span></h1>
+          <h4 class="textoCaja">Logra tus metas y obtén los resultados.</h4>
+        </div>
+      
+    </div>  -->
+
+      <!-- /fIN DEL BANNER -->
+
+      <!-- INICIO CLASES GRUPALES E INDIVIDUALES -->
+      <div id="clases" class="container-clasesGroup">
+
+        <div class="wrapper-clasesGroup">
+
+          <div class="textoTitulo">
+            <h1 class="tituloClases" >Clases individuales y grupales</h1>
+            <p class="parrafoClases">Elige las actividades que necesitas e inscribete</p>
+          </div>
+
+          <div class="tarjetas">
+
+            <div class="articulos">
+              <div class = "imgTarjeta" > 🏋🏼 </div>
+              <div class="tituloTarjeta"> <h3> Cardio y Pesas </h3>    </div>
+              <div class="parrafoTarjeta">  <p>Realizar ejercicios cardiovasculares es fundamental, ya sea que necesites ponerte en forma, perder peso o simplemente mejorar tu salud. Estos ejercicios reducen la grasa corporal total, lo cual es un indicador importante de la salud en general. Entrena todos tus músculos con nuestros ejercicios fitness </p>  </div>
+            </div>
+
+            <div class="articulos"> 
+              <div class = "imgTarjeta" > 🤸🏾 </div>
+              <div class="tituloTarjeta"> <h3> Aerobicos </h3>    </div>
+              <div class="parrafoTarjeta">  <p>Los entrenamientos Aeróbicos no se tratan solo de aprender nuevos movimientos y estilos. Te ayudan a desarrollar tus músculos, perder peso y mantenerte en forma a cualquier edad. Relaja tu mente y encuentra equilibrio espiritual con los movimientos suaves de baile. Elige clases que desees</p>  </div>
+            </div>
+
+            <div class="articulos">
+              <div class = "imgTarjeta" > 🧘🏼 </div>
+              <div class="tituloTarjeta"> <h3> Cross Trainig </h3>    </div>
+              <div class="parrafoTarjeta">  <p>El entrenamiento cruzado combina diversas actividades físicas para mejorar la salud en general, aumentar la energía, mejorar la postura y aumentar la confianza. Sus beneficios incluyen relajación, curación corporal, mejora de la flexibilidad, mejor función cognitiva y reducción de los niveles de estrés</p>  </div>
+            </div>
+
+
+          </div>
+        </div>        
+      </div>
+      <!-- FIN CLASES GRUPALES E INDIVIDUALES -->
+
+      <!-- inicio Barra z -->
+
+      <div class="container-barraz" >
+
+        <div class="barraz-tarjeta" >
+          
+          <div class="barrazTitulo"> <h1>Convierte la actividad fisica regular una parte de tu vida</h1> </div>
+          <div class="barraz-texto">  <h2>Dale el tiempo y el esfuerzo que se requiere a desarrollar músculo, quemar grasa, ponerte en forma y mejorar tu salud.</h2> </div>
+
+        </div>
+        
+      </div>
+
+
+      <!-- fin barra z -->
+
+
+      <!-- INICIO DE BIENVENIDA -->
+
+      <div class="containerBienvenida">
+        <div class="wrapperBienvenida">
+
+          <div class="bienvenidaTituto"> <h1>Bienvenidos</h1></div>
+          <div class="bienvenidaTexto"> <p> Bienvenido a Focus Gym. Hemos estado ofreciendo servicios de entrenamiento desde principios varios años atras. Debido a nuestros entrenadores altamente calificados, las instalaciones de entrenamiento más modernas y una cultura orientada a los resultados, hemos crecido rápidamente para convertirnos en uno de los centros de fitness más exitosos en Aranjuez. En Focus Gym, hemos diseñado cuidadosamente planes de entrenamiento y dietas para que tus objetivos de fitness sean alcanzables.</p></div>
+          <div class="bienvenidaTexto">  <p>¡Desafíate hoy mismo! ¡Desarrolla la autodisciplina para lograr el cuerpo de tus sueños con nosotros!</p>  </div>
+          <div class="bienvenidaFrase"> <p> ¡Es tiempo de ponerse en forma!</p> </div>
+          <div class="bienvenidafoto"> <img  class="fotoentrenador" src="./public/entrenado1.png" alt=""> </div>
+
+        </div>
+      </div>
+
+      <!-- FIN DE BIENVENIDA -->
+
+      <!-- inicio banner chica cuerdas -->
+
+      <div class="chicaCuerdas">
+        <img src="./public/chicaCuerda.png" alt="">
+      </div>
+
+      <!-- fin banner chica cuerdas -->
+
+      <!-- Inicio de logros -->
+
+
+      <div class="containerLogros">
+        <div class="wrapperLogros">
+
+              <div class="Tarjetas">
+                <div class="iconoTarjeta"><i  id="persona" class="bi bi-person-arms-up"> 300 </i></div>
+                  
+                  <p>Miembros</p>
+                
+              </div>
+
+
+              <div class="Tarjetas2">
+                <div class="iconoTarjeta"> <i  id="persona" class="bi bi-person-fill-add"> 6 </i> </div>
+                <p>Entrenadores</p>
+                
+              </div>
+              <div class="Tarjetas3">
+                <div class="iconoTarjeta"> <i id="persona" class="bi bi-calendar-week"> 5 </i> </div>
+                <p>Años Experiencia</p>
+                
+              </div>
+           
+
+
+        </div>        
+      </div>
+
+
+      <!-- fin de logros -->
+
+      <!-- inicio Home precios -->
+
+      <div id="precios" class="containerHP">
+        <div class="wrapperHP">
+
+          <div class="textoHP">
+            <h1> Óbten tu plan Fitness completo</h1>
+            <p>Por tiempo limitado obten tu plan fitness completo con 30% de descuento</p>
+          </div>
+          <div class="tarjetasHP">
+
+            <div class="tarjetaP1" >
+
+              <h6 class="modalidadHP" >MENSUAL</h6>
+              <h1 class="precioHP" > COP 45.000</h1>
+              <p >por mes</p>
+
+              <ul class="ul" >
+                <li>Acceso ilimitado a todas las clases</li><br>
+                <li>Plan de alimentación y dieta gratis</li><br>
+                <li>Entrenador personal</li><br>
+                <li>24/7 Acceso a los equipos deportivos </li><br>
+              </ul>
+
+              <div class="botonTarjetaHP"  > Obtener </div>
+
+            </div>
+
+
+
+            <div class="tarjetaP2" >
+
+              <h6 class="modalidadHP" >ANUAL</h6>
+              <h1 class="precioHP" > <strong> COP 400.000</strong></h1>
+              <p >por año</p>
+
+              <ul class="ul" >
+                <li>Acceso ilimitado a todas las clases</li><br>
+                <li>Plan de alimentación y dieta gratis</li><br>
+                <li>Entrenador personal</li><br>
+                <li>24/7 Acceso a los equipos deportivos </li><br>
+              </ul>
+
+              <div class="botonTarjetaHP" > Obtener </div>
+              
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+      <!-- fin home precios -->
+
+      <!-- Inicio Nuestro miembros -->
+
+      <div id="equipo" class="containerMiembros">
+        <div class="wrapperMiembros">
+
+          <div class="textoMiembros">
+            <h1>Miembros</h1>
+          </div>
+
+
+
+          <div class="img-container">
+            <div class="imgM1">
+              <img src="./public/entrenador123.png" alt="">
+            </div>
+            <div class="imgM1">
+              <img src="./public/imgM4.png" alt="">
+            </div>
+            <div class="imgM1">
+              <img src="./public/imgM5.png" alt="">
+            </div>
+            <div class="imgM1">
+              <img src="./public/imgM6.png" alt="">
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Fin Nuestros Miembros -->
+
+      <!-- Inicio Permanezcamos en contacto -->
+
+      <div id="contacto" class="containerPC">
+        <div class="wrapperPC">
+
+          <div class="tituloPC">
+
+            <h1>Hey espera, nos gustaria permanecer en contacto contigo</h1>
+
+          </div>
+          <div class="tarjetasPC">
+
+            <div class="tarjetasPC1" >
+                <div class="linea1">  Contactanos </div>
+                <div class="linea2">  IG: @focus_fitnesscenter </div>
+                <div class="linea3">  300-295- 6690 </div>  
+            </div>
+            <div class="tarjetasPC1" >
+                <div class="linea1"> Visitanos </div>
+                <div class="linea2"> Cra 50D # 92A -128 </div>
+                <div class="linea3">  Medellín , Aranjuez</div>  
+            </div>
+            <div class="tarjetasPC1" >
+                <div class="linea1"> Horario </div>
+                <div class="linea2"> Lunes a Sabado  </div>
+                <div class="linea3"> desde: 5:00 am hasta 10:00 pm </div>  
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <a href="https://wa.me/+573002956690"  id="whatsapp-button" class="whatsapp-button">
+              <i class="bi bi-whatsapp"></i>
+          </a>
+          
+          </div>
+
+          <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d833.7194383844295!2d-75.55845787014383!3d6.282082300449156!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1695692142489!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+         
+
+        </div>
+      </div>
+
+ 
+
+      <!-- Fin Permanezcamos en contacto -->
+
+      <div class="redes" >
+        
+        <div>
+          <i  id="instagram" class="bi bi-instagram"></i>
+        </div>
+
+        <div>
+          <i id="whatsapp" class="bi bi-whatsapp"></i>
+        </div>
+        
+        <div>
+          <i id="facebook" class="bi bi-facebook"></i>
+        </div>
+
+      </div>
+
+
+     
+
+      
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

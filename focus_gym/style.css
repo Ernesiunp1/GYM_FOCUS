@@ -1,0 +1,1014 @@
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#container {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* .container {
+  margin: 0; 
+  padding: 0;
+} */
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("./public/banner1.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.navbar {
+  padding: 2rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+}
+
+.nav {
+  display: flex;
+  border: 3px solid black;
+
+}
+
+.linksMenu {
+  display: flex;
+  color: grey;
+  padding-left: 25px;
+
+}
+
+.linksMenu a {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  text-decoration: none;
+}
+
+.logo {
+  /* border: 3px solid blue; */
+  width: 150px;
+  height: 60px;
+}
+
+
+.pasos {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+
+  justify-content: space-around;
+  width: 100%;
+  height: 25%;
+  /* border: 2px solid black; */
+  background-color: rgba(11, 13, 13, 0.6);
+  backdrop-filter: blur(15px);
+  border: solid 1px rgba(11, 13, 13, 0.2);
+  color: rgb(255, 255, 255);
+
+
+}
+
+.Numero {
+  color: rgb(209, 48, 48);
+}
+
+.abrirMenu {
+
+  display: none;
+}
+
+.cerrar {
+  display: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  color: grey;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.textocinto {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textoCaja {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(209, 48, 48);
+
+
+}
+
+/* FIN DE BANNER */
+
+/* INICIO CLASES GRUPALES E INDIVIDUALES */
+.container-clasesGroup {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(11, 13, 13, 0), rgba(11, 13, 13, 0)), url(https://hosting.renderforestsites.com/5699226/470297/media/2c47993358f81f7f2c77479ae6845076.jpg) center center / cover no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+
+.textoTitulo {
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+.tituloClases {
+  color: rgb(255, 255, 255);
+}
+
+.parrafoClases {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 17.5px;
+  padding-top: 20px;
+}
+
+.tarjetas {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10%;
+  padding-top: 30px;
+
+}
+
+.articulos {
+  text-align: justify;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+
+}
+
+.imgTarjeta {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.tituloTarjeta {
+  text-align: center;
+  color: rgb(209, 48, 48);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+.parrafoTarjeta {
+  line-height: 1.4;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* .wrapper-clasesGroup{
+  padding-left: 5rem;
+  padding-right: 5rem;
+} */
+
+/* p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} */
+
+
+
+
+
+
+
+/* FIN CLASES GRUPALES E INDIVIDUALES */
+
+
+/* Inicio barraz */
+.container-barraz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  background-image: url("./public/barraz.png");
+  background-size: cover;
+  /* width: 90%; */
+  height: 80vh;
+
+}
+
+.barraz-tarjeta {
+  text-align: center;
+
+  background-color: aliceblue;
+  border-radius: 5px;
+  opacity: 60%;
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+  /* height: 40%; */
+
+
+}
+
+.barrazTitulo {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
+  
+}
+
+.barraz-texto {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+
+
+
+/* fin Barraz */
+
+/* INICIO BIENVENIDA */
+
+.containerBienvenida {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(11, 13, 13);
+  /* padding: 4%; */
+
+}
+
+.wrapperBienvenida {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+
+
+.bienvenidaTituto {
+  color: rgb(209, 48, 48);
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
+  width: 100%;
+}
+
+
+.bienvenidaTexto,
+.bienvenidaTexto2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  text-align: justify;
+  width: 80%;
+  text-align: justify;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.bienvenidaFrase {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(209, 48, 48);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+
+.bienvenidafoto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  /* border: 2px solid red; */
+}
+
+.fotoentrenador {
+  border-radius: 50%;
+
+}
+
+/* FIN DE BIENVENIDA */
+
+/* inicio chica cuerdas */
+
+.chicaCuerdas{
+  display: flex;
+  justify-content: center;
+  /* background: linear-gradient(rgba(11, 13, 13, 0), rgba(11, 13, 13, 0)), url(https://hosting.renderforestsites.com/5699226/470297/media/2c47993358f81f7f2c77479ae6845076.jpg) center center / cover no-repeat; */
+  background: rgb(11, 13, 13);
+  /* width: 100%;
+  height: 80vh; */
+
+  /* background-image: url("./public/chicaCuerda.png"); */
+  background-size: cover;
+}
+
+
+
+/* fin chica cuerdas */
+
+
+/* inicio Logros */
+
+.containerLogros {
+  max-width: 100%;
+  background: rgb(11, 13, 13);
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.wrapperLogros {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+ 
+  /* border: solid 1px pink; */
+  width: 60%;
+}
+
+#persona {
+  display: block;
+  font-size: 2rem;
+  border: 0; 
+  color: rgb(209, 48, 48);
+  /* border: 1px solid yellow; */
+}
+
+#entrenadores {
+  /* border: 1px solid yellow; */
+  display: block;
+  font-size: 2rem;
+  border: 0; 
+  color: rgb(209, 48, 48)
+  
+}
+
+.Tarjetas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: aliceblue;
+  min-width: 30%;
+  /* border-left: 2px solid white; */
+  border-right: 2px solid white;
+ 
+}
+
+.Tarjetas2 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: aliceblue;
+  min-width: 30%;
+  /* border-left: 2px solid white; */
+  /* border-right: 2px solid white; */
+
+}
+
+.Tarjetas3 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: aliceblue;
+  min-width: 30%;
+  border-left: 2px solid white;
+  /* border-right: 2px solid white; */
+
+}
+
+.Tarjetas , .Tarjetas2, .Tarjetas3 p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* fin logros */
+
+/* inicio home precios */
+
+.containerHP {
+  width: 100%;
+  /* background-image: url("./public/salacardiorender.png") ; */
+  background: linear-gradient(rgba(11, 13, 13, 0.8), rgba(11, 13, 13, 0.8)), url("./public/salacardiorender.png") center center / cover no-repeat;;
+
+}
+
+.wrapperHP {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.textoHP {
+  text-align: center;
+}
+
+.tarjetasHP {
+  display: flex;
+ justify-content: center;
+ gap: 2rem;
+ 
+}
+
+
+.tarjetaP1 ,.tarjetaP2 {
+  font-family: 'Montserrat', sans-serif;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  /* opacity: 80%; */
+  border-radius: 25px;
+  color: dimgrey;
+  width: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 1rem;
+  /* padding-left: 1%; */
+  /* padding-right:3% ; */
+}
+
+.modalidadHP .precioHP {
+  text-align: center;
+}
+
+.precioHP {
+  font-family: 'Montserrat', sans-serif;  
+
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.ul {
+  font-family: 'Montserrat', sans-serif;  
+
+  /* text-align: center; */
+  font-size: 12px;
+  /* border: red solid 1px; */
+  width: 90%;
+}
+
+.botonTarjetaHP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  background-color:rgb(209, 48, 48);
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+  cursor: pointer;
+  transition: background-color 0.3s
+}
+
+.botonTarjetaHP:hover {
+  background-color:rgb(207, 18, 18);
+
+}
+
+
+/* fin home precios */
+
+/* Inicio Miembros */
+
+.containerMiembros{
+  padding-top: 2rem;
+  font-family: 'Montserrat', sans-serif;  
+  color: rgb(255, 255, 255) ;
+  background: rgb(11, 13, 13);
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.wrapperMiembros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imagenesMiembros {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+/* .imgM1 {
+  border: 1px solid yellow;
+  width: 20%
+  
+} */
+.img-container {
+  display: flex; /* Utiliza flexbox para alinear las imágenes en una fila */
+  gap: 20px; /* Establece el espacio entre las imágenes en 20px */
+  padding-bottom: 1rem ;
+  padding-top: 1rem;
+}
+
+.imgM1 {
+  flex: 1; /* Distribuye el espacio disponible de manera uniforme entre las imágenes */
+  /* height: 200px */
+}
+
+.imgM1 img {
+  max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
+  height: 200px; /* Mantiene la relación de aspecto original de las imágenes */
+}
+
+/* Fin Miembros */
+
+
+/* inicio permanezcamos en contacto */
+
+.containerPC {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  /* display: flex; */
+  background: linear-gradient(rgba(11, 13, 13, 0), rgba(11, 13, 13, 0)), url("https://hosting.renderforestsites.com/5699226/470297/media/2c47993358f81f7f2c77479ae6845076.jpg") center center / cover no-repeat;
+}
+
+
+.wrapperPC {
+  font-family: 'Montserrat', sans-serif;    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloPC {
+  margin-top: 2rem;
+  color: rgb(255, 255, 255);
+  width: 60%;
+  text-align: center;
+}
+
+.tarjetasPC {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+
+}
+
+.tarjetasPC1 {
+  margin-bottom: 10px;
+}
+
+.linea1 {
+  color: rgb(207, 18, 18);
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.linea2, .linea3 {
+  color: rgb(255, 255, 255);
+}
+
+/* fin permanezcamos en contacto */
+
+
+.mapa {
+ 
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+#instagram, #whatsapp, #facebook  {
+
+  font-size: 2rem;
+  border: 0; 
+  color: rgb(209, 48, 48);
+
+}
+
+.redes {
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
+
+
+
+
+
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la posición vertical según tu preferencia */
+  right: 20px; /* Ajusta la posición horizontal según tu preferencia */
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  color: #fff; /* Color del texto */
+  border-radius: 50%; /* Forma del botón (círculo) */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  text-decoration: none;
+  font-size: 1.5rem
+}
+
+/* Estilo para el ícono de WhatsApp */
+#whatsapp-button img {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+/* INICIO MEDIA QUERYS */
+@media only screen and (max-width: 650px) {
+
+  .barraz-tarjeta {
+    width: 90%;
+  }
+  
+
+  .tarjetasPC {
+    gap: 1rem;
+  }
+
+
+  .tituloPC {
+    width: 90%;
+  }
+
+  .tarjetasPC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  #container {
+    max-width: 100%;
+  }
+
+
+
+  /* INICIO BANNER MEDIA QUERY */
+  .navbar {
+    align-items: center;
+  }
+
+  .abrirMenu {
+    display: block;
+    font-size: 1.4rem;
+    border: 0;
+    background-color: transparent;
+    color: rgb(160, 20, 20);
+  }
+
+  .nav2 {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav2.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .cerrar {
+    display: block;
+    font-size: 1.4rem;
+    border: 0;
+    background-color: transparent;
+    color: rgb(160, 20, 20);
+  }
+
+  .nav2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: end;
+    background-color: rgba(11, 13, 13, 0.6);
+    backdrop-filter: blur(15px);
+    gap: 1rem;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+  }
+
+  .nav-list {
+
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .nav-list li a {
+    color: aliceblue;
+  }
+
+  .banner {
+    background-image: url("./public/banner3.png");
+    max-width: 100%;
+    height: 900px;
+    
+  }
+
+
+
+  .pasos {
+    
+    /* flex-wrap: wrap; */
+    /* padding-left: 2%;
+    padding-right: 2%; */
+    flex-direction: column;
+    /* Cambiar a apilamiento vertical */
+    align-items: start;
+    /* Centrar elementos verticalmente */
+    height: auto;
+    /* border: 1px solid red; */
+
+  }
+
+  .textoCaja {
+    font-size: medium;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 1rem;
+
+  }
+
+  .cajas {
+    text-align: left;
+    padding-left: 1rem;
+
+  }
+
+  /* FIN BANNER */
+
+  /* INICIO CLSES GRUPALES */
+
+  .container-clasesGroup {
+    padding-top: 60px;
+  }
+
+  .tarjetas {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* FIN INICIO CLASES GRUPALES */
+
+  /* INICIO BARRA Z */
+
+  .container-barraz {
+    max-width: 100%;
+    width: 100%;
+    height: 50vh;
+    
+    
+  }
+
+  /* FIN BARRA Z */
+
+  /* inicio bienvenida */
+
+  .containerBienvenida {
+    max-width: 100%;
+    /* border: 1px solid red; */
+
+  }
+
+  .wrapperBienvenida {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bienvenidaTituto {
+    max-width: 100%;
+    width: 100%;
+  }
+
+
+/* fin bienvenida */
+
+
+
+.wrapperLogros {
+  flex-direction: column;
+  width: 40%;
+}
+
+
+/* inicio logros */
+
+.Tarjetas {
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  padding-top: 15px;
+
+}
+.Tarjetas2 {
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  padding-top: 15px;
+
+}
+.Tarjetas3 {
+  border-left: none;
+  border-right: none;
+  /* border-bottom: 2px solid white; */
+  padding-top: 15px;
+
+}
+
+/* fin logros */
+
+
+
+/* inicio home precios */
+
+.tarjetaP1, .tarjetaP2{
+  width: 90%;
+  margin-left: none;
+  
+}
+
+.tarjetasHP{
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* fin home precios */
+
+/* inicio miembros */
+.img-container {
+  flex-direction: column; /* Cambiar a apilamiento vertical */
+  align-items: center; /* Centrar elementos horizontalmente */
+}
+.imgM1  {
+  /* border: 1px solid yellowgreen; */
+  margin-bottom: 20px; /* Agregar un margen inferior para separar las imágenes */
+  /* width: 90%; */
+  width: 100%;  
+}
+
+.imgM1 img{
+  width: 100%;
+}
+
+/* fin MIembros */
+
+/* .espaciador {
+  height: 1100px;
+  border: 1px solid red;
+} */
+
+
+
+#whatsapp-button {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 40px; /* Ajusta la posición vertical según tu preferencia */
+  right: 30px; /* Ajusta la posición horizontal según tu preferencia */
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  color: #fff; /* Color del texto */
+  border-radius: 50%; /* Forma del botón (círculo) */
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  text-decoration: none;
+}
+
+/* Estilo para el ícono de WhatsApp */
+#whatsapp-button img {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+/* 
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Kolker Brush', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
